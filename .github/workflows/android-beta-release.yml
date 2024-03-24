@@ -1,9 +1,7 @@
 name: DSM_helper_Android_DEV
 
 on:
-  push:
-    tags:
-      - 'v*'
+  workflow_dispatch: # 允许手动触发执行
 
 jobs:
   build_android:
