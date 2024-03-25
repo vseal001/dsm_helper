@@ -33,7 +33,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Android Apk
-        run: flutter build apk --release --flavor=beta
+        run: flutter build apk --release --flavor=beta -v
 
       - name: Upload PGYER File
         id: pgyer
